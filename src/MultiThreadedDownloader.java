@@ -99,6 +99,7 @@ public class MultiThreadedDownloader {
         // URL to download
         // File name to write to
         // Number of threads to use
+        // Example URL: http://speedtest.tele2.net/10MB.zip
         String url = "URL_GOES_HERE";
         String fileName = "file.zip";
         int numberOfThreads = 4;
