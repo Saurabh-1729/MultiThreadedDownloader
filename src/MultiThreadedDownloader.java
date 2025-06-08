@@ -15,7 +15,7 @@ public class MultiThreadedDownloader {
     private final String fileName;
     private final int numberOfThreads;
     // declare atomic variables to track progress
-    private final AtomicLong totalDownloadedBytes = new AtomicLong(0);
+    private final AtomicLong totalDownloadedBytes = new AtomicLong(0); // to track the overall progress, has not been implemeted yet
     CountDownLatch latch;
 
     public MultiThreadedDownloader(String url, String fileName, int numberOfThreads) {
@@ -67,6 +67,7 @@ public class MultiThreadedDownloader {
             }
             catch (Exception e){
                 System.err.println("Cannot create the file in the specified directory : " + e.getMessage());
+                return;
             }
             for(int i = 0; i < numberOfThreads; i++){
                 // calculate the start and end bytes for each part
