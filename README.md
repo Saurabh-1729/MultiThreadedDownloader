@@ -29,6 +29,8 @@ Just completed an exciting project that demonstrates the power of concurrent pro
 
 🚀 Future Improvements (The possibilities are endless!): • Smart Fallback - Auto-switch to single-threaded download if server doesn't support partial downloads • File Integrity Checks - Verify downloads using MD5/SHA checksums from server headers • Progress Tracking - Real-time download progress with speed metrics.
 
+📚 Resources that helped me: • GeeksforGeeks - For Java concurrency concepts • MDN Web Docs - For HTTP headers and protocols • Gemini AI - For debugging and optimization tips
+
 Tech Stack: #Java #Multithreading #HTTP #ConcurrentProgramming #FileIO
 
 #SoftwareDevelopment #JavaDeveloper #Programming
